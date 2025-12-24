@@ -101,8 +101,7 @@ README.md
 👩‍💻 Author
 
 Madhumita S M
-B.Tech – Computer Science & Engineering
+B.Tech – Computer Science & Engineering (IoT and Automation)
 Interested in AI, automation, and real-world system design
 
 
-Just tell me 💙
