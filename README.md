@@ -1,10 +1,11 @@
-🍽️ WhatsApp Food Ordering Bot
+# 🍽️ WhatsApp Food Ordering Bot
 
 An AI-powered **WhatsApp food ordering assistant** built using **n8n**, **Groq LLM**, and **Google Sheets**.
 The bot allows users to check menu availability, place orders, and get instant responses — all through WhatsApp.
 
+---
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 This project demonstrates how **workflow automation + LLMs** can be used to build a real-world conversational system.
 
@@ -15,21 +16,24 @@ Users can:
 * Place confirmed orders
 * Get FAQs like delivery time and payment methods
 
-All responses are clean, human-like, with no backend or tool logic exposed.
+All responses are **clean, human-like**, with **no backend or tool logic exposed**.
 
+---
 
-✨ Key Features
+## ✨ Key Features
 
 * 📱 WhatsApp-based conversational interface
-* 🤖 AI Agent powered by Groq (LLaMA 3.1)
+* 🤖 AI Agent powered by **Groq (LLaMA 3.1)**
 * 📦 Real-time inventory check from Google Sheets
 * 🧾 Order confirmation & storage
 * ℹ️ FAQ handling (delivery time, payment, hours)
 * 🔒 Secure setup (no credentials exposed)
 
+---
 
-🧠 Architecture
-Workflow:
+## 🧠 Architecture
+
+**Workflow:**
 
 ```
 WhatsApp Trigger
@@ -44,24 +48,28 @@ Tools
 WhatsApp Response
 ```
 
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 * **n8n** – Workflow automation
 * **Groq LLM** – LLaMA 3.1 chat model
 * **Google Sheets** – Inventory, FAQ, Orders
 * **WhatsApp Cloud API** – User interaction
 
-🧪 How It Works
+---
+
+## 🧪 How It Works
 
 1. User sends a message on WhatsApp
 2. AI Agent understands intent (order / check / FAQ)
 3. Relevant tool is triggered silently
 4. Response is generated in plain text
 5. Confirmed orders are saved automatically
-   
 
-📂 Repository Contents
+---
+
+## 📂 Repository Contents
 
 ```
 workflow/
@@ -73,7 +81,7 @@ README.md
 
 > ⚠️ API keys, credentials, and tokens are **not included**.
 
-
+---
 
 ## ▶️ How to Run Locally
 
@@ -86,9 +94,9 @@ README.md
 3. Activate the workflow
 4. Start chatting via WhatsApp
 
+---
 
-
- 🎯 What This Project Demonstrates
+## 🎯 What This Project Demonstrates
 
 * Practical use of **LLMs in automation**
 * Tool-based AI agent design
@@ -96,12 +104,5 @@ README.md
 * Error handling and schema validation
 * Production-style workflow thinking
 
-
-
-👩‍💻 Author
-
-Madhumita S M
-B.Tech – Computer Science & Engineering (IoT and Automation)
-Interested in AI, automation, and real-world system design
-
+---
 
